@@ -1,0 +1,25 @@
+public Test{
+int a;
+int b;
+static int age; // Static variables/methods will be stored in a separate META_SPACE
+                // Static variables (Stored in METASPACE) will be commom property value for all objects in HEAP
+
+void m1(){
+int x=10;}
+void m2(){
+int y=20;}
+void m3(){
+int z=30;}}
+
+STACK --> Follows LIFO --> methods and local variables are stored in STACK
+once the method body us done, deallocation for memory in STACK will happen in LIFO format
+Reference variable for an object is stored in STACK which will be pointing to object in HEAP memory
+
+HEAP --> Objects will be stored in HEAP memory
+         Class variables will be stored in HEAP memory
+HEAP is divided into young_generation,EDEN_SPACE, survivor1, survivor2
+
+When an object is created first time, its stored in EDEN_SPACE (And refence variable in STACK memory)
+Garbage Collector minor(GC) will never enter STACK(There only JVM deallocates the memory). It only works in HEAP memory
+GC will destroy the objects with null and empty references
+
