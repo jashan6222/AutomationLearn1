@@ -1,15 +1,15 @@
 package OOPSConceptsPart1;
 
-public class Car {
+public class CarOOPS1 {
     //Global/Class variables
     int modelNumber;
     int wheels;
 
     public static void main(String[] args) {
 
-        Car a=new Car();// RHS will create an object(a is object reference variable )
-        Car b= new Car(); // new operator is used to create a new object
-        Car c = new Car();
+        CarOOPS1 a=new CarOOPS1();// RHS will create an object(a is object reference variable )
+        CarOOPS1 b= new CarOOPS1(); // new operator is used to create a new object
+        CarOOPS1 c = new CarOOPS1();
 
         a.modelNumber=2015;
         a.wheels=4;
