@@ -2,7 +2,7 @@ package OOPSConceptsPart2;
 
 public interface USBank {
 
-    int min_Balance = 100;
+    static int min_Balance = 100;
 
     public void credit();
     public void debit();
