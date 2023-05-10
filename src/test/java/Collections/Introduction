@@ -1,0 +1,24 @@
+Collections Framework is a framework used to store and manipulate groups of objects efficiently.
+
+Operations available in the Collections Framework include:
+
+Searching: Searching for an element in the collection.
+Insertion: Adding an element to the collection.
+Manipulation: Modifying elements in the collection.
+Deletion: Removing elements from the collection.
+Sorting: Arranging the elements in a specific order.
+Interfaces in the Collections Framework:
+
+Set: Represents a collection that does not allow duplicate elements.
+List: Represents an ordered collection that allows duplicate elements.
+Queue: Represents a collection that follows the First-In-First-Out (FIFO) principle.
+Deque: Represents a collection that allows insertion and removal of elements at both ends.
+Classes in the Collections Framework:
+
+ArrayList: Implements the List interface and provides a resizable array-based implementation.
+Vector: Similar to ArrayList, but it is synchronized (thread-safe).
+LinkedList: Implements the List interface and provides a doubly-linked list implementation.
+HashSet: Implements the Set interface and uses a hash table for storage, allowing fast access.
+TreeSet: Implements the Set interface and stores elements in a sorted tree structure.
+PriorityQueue: Implements the Queue interface and stores elements based on priority.
+Deque: Represents a double-ended queue and can be implemented using various classes like ArrayDeque or LinkedList.
